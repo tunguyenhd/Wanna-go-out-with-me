@@ -55,6 +55,10 @@ body {
    box-shadow: 0 4px 10px rgba(255, 107, 129, 0.3);
 }
 
+.btn.no-btn {
+   padding: 15px 30px;
+}
+
 .btn:hover {
    background-color: white;
    color: #ff6b81;
