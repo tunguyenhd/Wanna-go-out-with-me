@@ -1,5 +1,5 @@
 function nextPage() {
-   window.location.href = "yes-page/yes-page.html";
+   window.location.href = "yes-page/yes.html";
 }
 
 function moveButton() {
@@ -34,3 +34,6 @@ function moveButton() {
       { once: true }
    );
 }
+
+// Gán sự kiện touchstart cho điện thoại
+document.getElementById("noButton").addEventListener("touchstart", moveButton);
