@@ -11,7 +11,8 @@ function moveButton() {
    noButton.style.position = "absolute";
    noButton.style.left = `${randomX}px`;
    noButton.style.top = `${randomY}px`;
-   noButton.style.padding = "30px 45px";
+   noButton.style.width = "120px";
+   noButton.style.height = "80px";
    noButton.classList.add("wiggle");
    noButton.addEventListener(
       "animationend",
