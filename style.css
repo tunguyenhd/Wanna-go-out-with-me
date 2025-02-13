@@ -19,6 +19,7 @@ body {
    box-shadow: 0 8px 20px rgba(255, 107, 129, 0.3);
    max-width: 400px;
    width: 90%;
+   user-select: none;
 }
 
 .header_text {
